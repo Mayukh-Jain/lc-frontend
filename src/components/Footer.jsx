@@ -27,7 +27,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-6 pt-6 text-center text-sm flex items-center justify-center gap-1">
           <span>Made with</span>
           <Heart size={14} className="text-red-500 fill-current" />
-          <span>for the farming community. © {new Date().getFullYear()}</span>
+          <span>for the farming community. © {new Date().getFullYear()}</span>  <span> | </span> <span>Mayukh Jain</span>
         </div>
       </div>
     </footer>
